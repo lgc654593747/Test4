@@ -3,6 +3,16 @@ package cn.test;
 public class Test4 {
      private int username;
      private int password;
+     private int age;
+     
+     
+     
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
 	public int getUsername() {
 		return username;
 	}
